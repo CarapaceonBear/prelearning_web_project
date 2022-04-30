@@ -10,3 +10,24 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+body {
+  max-width: 650px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  font-family: "Boogaloo", sans-serif;
+  font-size: 90px;
+  color: #333059;
+  margin-right: 260px;
+}
+
+.login-button {
+  color: #333059;
+}

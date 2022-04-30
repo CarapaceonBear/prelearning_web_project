@@ -4,7 +4,7 @@ $font-logo: "Boogaloo", sans-serif;
 $font-body: "Roboto", sans-serif;
 $font-display:"Varela Round", sans-serif;
 
-$color-primary: rgb(27, 25, 52);
+$color-primary: rgb(51, 48, 89);
 $color-secondary: rgb(55, 229, 241);
 $color-footer: rgb(251, 247, 216);
 $color-background: rgb(238, 238, 238);
@@ -19,4 +19,26 @@ $color-background: rgb(238, 238, 238);
 a:link,
 a:visited {
     text-decoration: none;
+}
+
+body {
+    max-width: 650px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        font-family: $font-logo;
+        font-size: 90px;
+        color: $color-primary;
+        margin-right: 260px;
+    }
+}
+
+.login-button {
+    color: $color-primary;
 }
