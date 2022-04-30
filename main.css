@@ -93,3 +93,33 @@ header p {
   font-size: 30px;
   margin: 80px;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main h1 {
+  font-size: 36px;
+}
+main div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 700px;
+}
+main div p {
+  font-size: 28px;
+}
+main div img {
+  min-width: 300px;
+}
+
+.standout-text {
+  font-weight: bolder;
+}
+
+#italisised-aside {
+  font-style: italic;
+}
