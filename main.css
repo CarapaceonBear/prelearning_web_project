@@ -123,3 +123,7 @@ main div img {
 #italisised-aside {
   font-style: italic;
 }
+
+#first-image {
+  min-width: 200px;
+}
